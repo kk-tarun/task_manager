@@ -124,3 +124,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Acknowledgements
 
 - Thanks to the open-source community for providing great tools and resources.
+
+### Screenshots
+- Landing Page
+  ![Screenshot 2024-06-14 154544](https://github.com/kk-tarun/task_manager/assets/74929799/f1d7de51-de5d-4d2f-81f4-1d2b787fd9f1)
+- View Task
+  ![Screenshot 2024-06-14 154633](https://github.com/kk-tarun/task_manager/assets/74929799/7a4adedb-72b7-4772-bad0-dec618cc0411)
+- Update Task
+  ![Screenshot 2024-06-14 154655](https://github.com/kk-tarun/task_manager/assets/74929799/3d750c2f-7fce-4365-b43a-c31564067227)
+

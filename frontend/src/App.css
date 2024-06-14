@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 60%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: aliceblue;
+  font-family: cursive;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightblue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 5px solid rgb(80, 96, 240);
+  transition: background-color 0.3s ease;
+}
+
+.task.completed {
+  background-color: mediumspringgreen;
+}
+
+.task span {
+  margin: 0;
+  cursor: pointer;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+.edit-button {
+  background-color: #ccc;
+  color: #444;
+}
+
+.edit-button:hover {
+  background-color: #bbb;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #ec1102;
+}
+
+#task-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+  background-color: orangered;
+  height: 35px;
+  width: 150px;
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.task_title {
+  font-size: large;
+  font-weight: 600;
+  
+}
